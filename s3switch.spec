@@ -1,11 +1,12 @@
 Name:		s3switch
 Summary:	Switch display output between CRT/LCD/TV on S3 boards
 Version:	0.20020911
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	MIT
 Group:		System/X11
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source0:	http://www.probo.com/timr/s3ssrc.zip
+Exclusivearch:	%{ix86}
 
 %description
 s3switch is an utility that allows the switch of the display

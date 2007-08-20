@@ -31,5 +31,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %{_bindir}/s3switch
-%{_mandir}/man1/s3switch.1.bz2
+%{_mandir}/man1/s3switch.1*
 

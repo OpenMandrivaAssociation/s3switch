@@ -4,6 +4,7 @@ Version:	0.20020911
 Release:	%mkrel 2
 License:	MIT
 Group:		System/X11
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source0:	http://www.probo.com/timr/s3ssrc.zip
 Exclusivearch:	%{ix86}
 

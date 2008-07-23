@@ -1,7 +1,7 @@
 Name:		s3switch
 Summary:	Switch display output between CRT/LCD/TV on S3 boards
 Version:	0.20020911
-Release:	%mkrel 2
+Release:	%mkrel 4
 License:	MIT
 Group:		System/X11
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot

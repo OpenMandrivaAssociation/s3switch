@@ -8,6 +8,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source0:	http://www.probo.com/timr/s3ssrc.zip
 Exclusivearch:	%{ix86}
 
+BuildRequires:	make
 %description
 s3switch is an utility that allows the switch of the display
 output between the various output devices supported by
